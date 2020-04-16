@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS `book`;
+DROP TABLE IF EXISTS `user`;
 
 CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
