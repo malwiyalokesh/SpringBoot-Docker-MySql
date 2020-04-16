@@ -14,3 +14,4 @@ This is a sample spring boot app which is built using Docker and communicates wi
    3. Switch to `my-db` : **use my-db**
    4. Check the tables: **show tables**
 7. Run the app container and connect to running MySql container: **docker container run -it --rm --name docker-demo-app -p 5000:9099 --link=docker-mysql docker-demo-app:latest**
+8. Acces the app: **http://localhost:5000/users**
